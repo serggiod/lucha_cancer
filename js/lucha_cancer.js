@@ -1,0 +1,11 @@
+$(window.document).on('ready',function(){
+	window.lc.index.init();
+});
+window.lc={}
+window.lc.index={
+	init:function(){
+		$.get('xhr/index.html',function(html){
+			$('#content').html(html);
+		});
+	}
+}

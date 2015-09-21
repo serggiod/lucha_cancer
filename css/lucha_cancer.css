@@ -1,0 +1,29 @@
+@media screen{
+	*{
+		border:0;
+		margin:0;
+		padding:0;
+	}
+
+	img#header{
+		width:100%;
+	}
+
+	img#escudo_jujuy{
+		width:40px;
+		margin-left:auto;
+		margin-right:auto;
+	}
+	#footer{
+		height:60px;
+	}
+
+	.articulo{
+		font-weight: bold;
+		text-decoration: underline;
+	}
+
+	.text-strong{
+		font-weight: bold;
+	}
+}
